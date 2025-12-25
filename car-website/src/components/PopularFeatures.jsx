@@ -1,6 +1,6 @@
 import React from "react";
-import carFeatures from "../assets/featured-car.svg";
-import map1 from "../assets/map.svg";
+import carFeatures from "../assets/popularFeatures/featured-car.svg";
+import map1 from "../assets/popularFeatures/map.svg";
 
 const GlassCard = ({ children, className }) => (
   <div

@@ -1,8 +1,8 @@
 import React from "react";
-import home1 from "../assets/home1.svg";
-import icon1 from "../assets/icon-home.svg";
-import icon2 from "../assets/icon-home-1.svg";
-import icon3 from "../assets/icon-home-2.svg";
+import home1 from "../assets/hero/heroImages/home1.svg";
+import icon1 from "../assets/hero/heroIcons/temperature-icon.svg";
+import icon2 from "../assets/hero/heroIcons/mileage-icon.svg";
+import icon3 from "../assets/hero/heroIcons/battery-icon.svg";
 
 const carStats = [
   {
@@ -12,13 +12,13 @@ const carStats = [
     color: "text-gray-400",
   },
   {
-    icon: icon3,
+    icon: icon2,
     value: "873",
     label: "MILEAGE",
     color: "text-gray-400",
   },
   {
-    icon: icon2,
+    icon: icon3,
     value: "94%",
     label: "BATTERY",
     color: "text-gray-400",

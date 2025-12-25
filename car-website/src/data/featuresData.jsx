@@ -8,9 +8,12 @@ Object.keys(iconsImport).forEach((path) => {
   carrouselIcons[fileName] = iconsImport[path].default;
 });
 
-const carImages = import.meta.glob("../assets/porscheFeatures/*.svg", {
-  eager: true,
-});
+const carImages = import.meta.glob(
+  "../assets/featuresImg/porscheModels/*.svg",
+  {
+    eager: true,
+  }
+);
 
 const featuresImages = Object.values(carImages).map((img) => img.default);
 
