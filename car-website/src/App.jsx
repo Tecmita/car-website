@@ -9,6 +9,7 @@ import PopularFeatures from "./components/PopularFeatures";
 import Features from "./components/Features";
 import Offers from "./components/Offers";
 import Brands from "./components/Brands";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Features />
       <Offers />
       <Brands />
+      <Footer />
     </div>
   );
 }

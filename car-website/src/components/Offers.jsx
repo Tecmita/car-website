@@ -26,7 +26,7 @@ const Offers = () => {
         md:inset-y-0
         md:px-20
 
-        lg:left-72
+        lg:left-24
 
         xl:left-32
         2xl:left-96
@@ -74,6 +74,7 @@ const Offers = () => {
           md:right-10 
           
           lg:right-28
+          
           xl:right-48
           xl:w-[450px]
           

@@ -1,5 +1,8 @@
 import React from "react";
 import logo from "../assets/Altera.svg";
+import fb from "../assets/FooterIcons/facebook.svg";
+import tw from "../assets/FooterIcons/twitter.svg";
+import ig from "../assets/FooterIcons/instagram.svg";
 
 const Footer = () => {
   return (
@@ -64,10 +67,10 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="font-semibold mb-4">Follow us</h4>
-          <div className="flex gap-4 text-white/70">
-            <span>FB</span>
-            <span>IG</span>
-            <span>TW</span>
+          <div className="flex gap-6 text-white/70">
+            <img src={fb} alt="facebook" />
+            <img src={tw} alt="twitter" />
+            <img src={ig} alt="instagram" />
           </div>
         </div>
       </div>
